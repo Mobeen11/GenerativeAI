@@ -1,5 +1,3 @@
-# README
-
 ## Introduction
 
 This repository contains Python code for two different functionalities:
@@ -40,7 +38,7 @@ Before running the code, ensure you have the following dependencies installed:
     export REPLICATE_API_TOKEN="YOUR_API_TOKEN_HERE"
     ```
 
-3. Run the code: Execute the Python script or Jupyter notebook containing the provided code snippets.
+3. Run the code: Execute the Python script or Jupyter Notebook containing the provided code snippets.
 
 ### Tourist Destination Dataset Indexing and Querying
 
@@ -53,7 +51,7 @@ Before running the code, ensure you have the following dependencies installed:
 
 2. Prepare the dataset: Modify the `dataset` variable to include the desired tourist destinations, categories, and descriptions.
 
-3. Run the indexing code: Execute the Python script or Jupyter notebook containing the provided code snippets to index the dataset into Pinecone.
+3. Run the indexing code: Execute the Python script or Jupyter Notebook containing the provided code snippets to index the dataset into Pinecone.
 
 4. Perform queries: Use the `run_query` function to search for destinations based on a query.
 
@@ -61,7 +59,7 @@ Before running the code, ensure you have the following dependencies installed:
 
 ### RAG-based Advertisement Generation
 
-1. **Similarity Search**: The code performs similarity search using Pinecone, allowing you to find relevant context based on a given query.
+1. **Similarity Search**: The code performs a similarity search using Pinecone, allowing you to find relevant context based on a given query.
 
 2. **Text Embedding**: Sentence Transformers are used to generate embeddings for the input text.
 
