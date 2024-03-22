@@ -4,7 +4,8 @@ This repository contains Python code for two different functionalities:
 
 ### 1. RAG-based Advertisement Generation
 
-The first part of the code demonstrates the use of RAG (Reformulated Attention Generative Models) for generating advertisements targeted at travelers. It utilizes Pinecone for similarity search, Sentence Transformers for generating embeddings, and Replicate for fine-tuning and generating text based on the provided context.
+The first part of the code demonstrates the use of RAG (Retrieval Augmented Generations) for generating advertisements targeted at travelers. It utilizes Pinecone for similarity search, Sentence Transformers for generating embeddings, and Replicate for fine-tuning and generating text based on the provided context.
+![RAG](https://github.com/Mobeen11/GenerativeAI/blob/main/POC%20Generating%20Advertisement/Untitled%20Diagram.drawio(5).png)
 
 ### 2. Tourist Destination Dataset Indexing and Querying
 
